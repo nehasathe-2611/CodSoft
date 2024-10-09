@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 120px;
+  background: #11141a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #e305d8;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  background: #f8a7f4;
+  color: black;
+}
+
+section:nth-child(odd) {
+  background: #f8a7d4;
+}
+
+.home {
+  align-items: center;
+  justify-content: center;
+}
+.home h1 {
+  font-size: 80px;
+}
+.home h1 span {
+  font-size: 200px;
+  color: #f43588;
+  font-style: italic;
+}
+
+.about h1 {
+  color: #f43588;
+  text-decoration: underline;
+  margin-top: 110px;
+  font-size: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.about img {
+  width: 550px;
+  float: left;
+  margin-left: 20px;
+  border-style: outset;
+  border-color: black;
+  border-width: 10px;
+}
+.about p {
+  margin-top: 250px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 650px;
+  margin-right: 50px;
+}
+
+.skills h1 {
+  color: #f43588;
+  text-decoration: underline;
+  margin-top: 110px;
+  font-size: 100px;
+  margin-left: 770px;
+  justify-content: center;
+  text-align: center;
+}
+.skills ul li {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 770px;
+  padding: 10px;
+  list-style: none;
+  border: 1px solid;
+  color: white;
+  background-color: #11141a;
+}
+
+.projects h1 {
+  color: #f43588;
+  text-decoration: underline;
+  margin-top: 110px;
+  font-size: 100px;
+  margin-left: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.projects h3 {
+  font-size: 25px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.resume h1 {
+  color: #f43588;
+  text-decoration: underline;
+  margin-top: 110px;
+  font-size: 100px;
+  margin-left: 700px;
+  justify-content: center;
+  text-align: center;
+}
+.resume h3 {
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 650px;
+  margin-top: 200px;
+}
+.resume a {
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 860px;
+}
+
+.contact h1 {
+  color: #f43588;
+  text-decoration: underline;
+  margin-top: 110px;
+  font-size: 100px;
+  margin-left: 600px;
+  justify-content: center;
+  text-align: center;
+}
+
+.h31 {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 690px;
+}
+
+.h32 {
+  font-size: 25px;
+  margin-left: 550px;
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: white;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  border-bottom: 3px solid #f8a7d4;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
